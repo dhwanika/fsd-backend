@@ -10,9 +10,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan(basePackages= {"com.fsd.task.*"})
 @EntityScan(value ="com.fsd.task.entity")
 @EnableJpaRepositories(value = "com.fsd.task.repository")
-public class TaskManagerApplication {
+public class FSDApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(TaskManagerApplication.class, args);
+		SpringApplication.run(FSDApplication.class, args);
 	}
 
 }
